@@ -1,2 +1,2 @@
-# refactoring_gildedrose_kata
+# Refactorización Gilded Rose
 Refactorización de la Kata Gilded Rose

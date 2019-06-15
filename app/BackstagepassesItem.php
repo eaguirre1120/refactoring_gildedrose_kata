@@ -19,19 +19,19 @@ class BackstagepassesItem extends Item
 		if ( $this->quality > 0 && $this->quality < 50 )
 		{
 			$this->quality = $this->quality + 1;
-	        if ( $this->sell_in < 11 ) 
-	        {
-	            $this->quality = $this->quality + 1;
-	        }
-	        if ( $this->sell_in < 6 ) 
-	        {
-	            $this->quality = $this->quality + 1;
-	        }
-    	}
+			if ( $this->sell_in < 11 ) 
+			{
+			    $this->quality = $this->quality + 1;
+			}
+			if ( $this->sell_in < 6 ) 
+			{
+			    $this->quality = $this->quality + 1;
+			}
+    		}
     	
-    	$this->sell_in = $this->sell_in - 1;
+    		$this->sell_in = $this->sell_in - 1;
     	
-    	if ( $this->sell_in < 0 )
+    		if ( $this->sell_in < 0 )
 		{
 			$this->quality = $this->quality - $this->quality;
 		}

@@ -1,4 +1,4 @@
-# Módulo 1 - Patrones de diseño en Ingeniría de Software
+# Módulo 1 - Patrones de diseño en Ingeniería de Software
 # Refactorización Gilded Rose
 Pasos para refactorizar:
 - Separación de clases en dos archivos: Item.php y GildedRose.php 

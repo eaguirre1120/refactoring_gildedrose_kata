@@ -25,9 +25,9 @@ class AgedbrieItem extends Item
 		if ( $this->sell_in < 0 )
 		{
 			if ($this->quality < 50) 
-            {
-                $this->quality = $this->quality + 1;
-            }
+			{
+				$this->quality = $this->quality + 1;
+			}
 		}
 	}
 }
